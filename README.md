@@ -44,3 +44,20 @@ This project is designed to be clean, lightweight, and portfolio-ready.
 
 ## 📁 Project Structure
 
+emotion-recognition-app/
+│
+├── app_emotion_portfolio_final.py # Main Streamlit application
+├── emotion_model.h5 # Trained model
+├── requirements.txt # Dependencies
+├── README.md # Project documentation
+├── .gitignore # Files ignored by Git
+├── LICENSE # MIT license
+
+
+---
+
+## ▶️ Run locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app_emotion_portfolio_final.py
