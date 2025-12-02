@@ -6,7 +6,7 @@ import cv2
 from collections import deque
 
 # ---------------- Load Model ----------------
-MODEL_PATH= "models/emotion_model.h5"
+MODEL_PATH= "emotion_model.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
 st.write(f"Model loaded. Expected input shape: {model.input_shape}")
 
