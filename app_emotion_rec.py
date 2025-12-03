@@ -6,12 +6,10 @@ import cv2
 from collections import deque
 
 # ---------------- Load Model ----------------
-<<<<<<< HEAD
 model = tf.keras.models.load_model("emotion_model.h5")
-=======
 MODEL_PATH= "emotion_model.h5"
 model = tf.keras.models.load_model(MODEL_PATH)
->>>>>>> effe2b1ece0db44f86fd7bc9ec9fc401c737af8c
+ effe2b1ece0db44f86fd7bc9ec9fc401c737af8c
 st.write(f"Model loaded. Expected input shape: {model.input_shape}")
 
 # Determine expected channels
